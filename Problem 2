@@ -1,0 +1,37 @@
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+
+using namespace std;
+ int main ()
+ {
+double total; 
+float Mass;
+float Density;
+float volume;
+	
+ 
+
+	//Calculated Volume 
+	cout << "Calculated Volume: " << endl;
+
+	cout << " " << endl;
+
+	cout << "Input Mass (grams) : " << endl;
+	cin >> Mass;
+
+	cout << " " << endl;
+
+	cout << "Input Density (cubic centimeters) : " << endl; 
+	cin >> Density;
+
+	cout << " " << endl; 
+
+	cout << "Calculated Volume: " << setprecision(2) << Density / Mass << endl;
+
+
+
+
+	 _getch();
+	 return 0;
+ }
