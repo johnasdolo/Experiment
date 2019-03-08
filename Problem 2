@@ -27,7 +27,7 @@ float volume;
 
 	cout << " " << endl; 
 
-	cout << "Calculated Volume: " << setprecision(2) << Density / Mass << endl;
+	cout << "Calculated Volume: " << setprecision(2) << Mass / Density << endl;
 
 
 
